@@ -1,38 +1,221 @@
-.App {
-  text-align: center;
+/* Outfit Planner */
+.outfitPlanner{
+
+position: absolute;
+width: 116px;
+height: 21px;
+left: 129px;
+top: 6px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+color: #2316B7;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+/* Find What To Wear */
+.findWhatToWear{
+position: absolute;
+width: 114px;
+height: 15px;
+left: 138px;
+top: 51px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 15px;
+
+color: #828282;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Fashion Styles / Dress Code */
+.fashionStyles{
+position: absolute;
+width: 182px;
+height: 21px;
+left: 96px;
+top: 90px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+
+color: #2D2D2D;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Group 1 */
+#button1{
+position: absolute;
+width: 160px;
+height: 50px;
+left: 107px;
+top: 143px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+color: #FFFFFF;
+
+
+background: #2316B7;
+box-shadow: 0px 4px 4px 
 }
 
-.App-link {
-  color: #61dafb;
+/* Group 2 */
+#button2{
+position: absolute;
+width: 160px;
+height: 50px;
+left: 107px;
+top: 230px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+color: #FFFFFF;
+
+
+background: #2316B7;
+box-shadow: 0px 4px 4px 
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Group 3 */
+
+#button3{
+position: absolute;
+width: 160px;
+height: 50px;
+left: 107px;
+top: 317px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+color: #FFFFFF;
+
+
+background: #2316B7;
+box-shadow: 0px 4px 4px 
+}
+
+
+
+
+
+/* TOP */
+.top{
+position: absolute;
+width: 36px;
+height: 21px;
+left: 169px;
+top: 445px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+color: #2316B7;
+}
+
+
+
+/* Rectangle
+
+Image Block
+*/
+#imageSize1{
+position: absolute;
+width: 215px;
+height: 220px;
+left: 88px;
+top: 487px;
+}
+
+
+
+/* BOTTOM */
+.bottom{
+position: absolute;
+width: 78px;
+height: 21px;
+left: 148px;
+top: 744px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+color: #2316B7;
+}
+
+
+
+/* Rectangle
+
+Image Block
+*/
+#imageSize2{
+position: absolute;
+width: 215px;
+height: 220px;
+left: 88px;
+top: 786px;
+
+
+}
+
+
+/* SHOES */
+.shoes{
+position: absolute;
+width: 62px;
+height: 21px;
+left: 156px;
+top: 1042px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+text-align: center;
+
+color: #2316B7;
+}
+
+/* Rectangle
+
+Image Block
+*/
+#imageSize3{
+position: absolute;
+width: 215px;
+height: 220px;
+left: 88px;
+top: 1085px;
 }
